@@ -71,25 +71,25 @@ input:focus::-moz-placeholder { /* Fr 4-19 */
 }
 /*************************************index style start*************************************/
 h1{
-	font-family: 'pt_sansbold';
+	font-family: '';
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
 }
 h2{
-	font-family: 'pt_sansregular';
+	font-family: '';
 	font-size: 28px;
 	line-height: 28px;
 	color: #000000;
 }
 p{
-	font-family: 'pt_sansregular';
+	font-family: '';
 	font-size: 18px;
 	line-height: 24px;
 	color: #000000;
 }
 figcaption{
-	font-family: 'pt_sansregular';
+	font-family: '';
 	font-size: 14px;
 	line-height: 16px;
 	color: #000000;
@@ -112,7 +112,7 @@ figcaption{
 
 
 body {
-	background-image: url('../images/image.jpg');
+	background-image: url('../images/image4.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 1080px;
