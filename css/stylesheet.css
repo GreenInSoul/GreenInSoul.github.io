@@ -170,13 +170,15 @@ footer {
 	font-family: BebasBold;
 	padding-top: 30px;
 	padding-left: 30px;
+	float: left;
 }
 
 .footer_images {
 	text-align: right;
 	padding-top: 30px;
 	padding-right: 50px;
-	padding-bottom: 30px;
+	margin-bottom: 25px;
+
 	
 }
 
@@ -189,6 +191,7 @@ footer a {
 
 /*media*/
 @media only screen and (min-width : 320px) {
+	
 
 }
 
@@ -226,59 +229,94 @@ footer a {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-		.footer_images {
-	text-align: right;
-	padding-top: 20px;
-	padding-right: 25px;
-	padding-bottom: 20px;
-	
-}
-footer a {
-	padding-left: 1px;
-}
-footer {
-	max-height: 160px;
-	min-height: auto;
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
 }
 
-	
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+
+}
+
+	footer img {
+		width: 6%;
+}
+
 	
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-		.footer_images {
-	text-align: right;
-	padding-top: 5px;
-	padding-right: 25px;
-	padding-bottom: 5px;
-	
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
 }
-footer a {
-	padding-left: 1px;
+
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+
 }
-footer {
-	max-height: 160px;
-	min-height: auto;
+
+	footer img {
+		width: 10%;
 }
-	
+
+
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.footer_images {
-	text-align: right;
-	padding-top: 2px;
-	padding-right: 25px;
-	
-}
-footer a {
-	padding-left: 1px;
-}
-footer {
-	max-height: 160px;
-	min-height: auto;
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
 }
 
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+
+}
+
+	footer img {
+		width: 10%;
 }
 /* Large Devices, Wide Screens */
 @media (min-width : 992px) and (max-width : 1200px) {
