@@ -112,7 +112,7 @@ figcaption{
 
 
 body {
-	background-image: url('../images/image1.jpg');
+	background-image: url('../images/image.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 1080px;
@@ -172,6 +172,17 @@ footer {
 	padding-left: 30px;
 }
 
+.footer_images {
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	
+}
+
+footer a {
+	padding-left: 5px;
+}
 
 
 
@@ -215,15 +226,58 @@ footer {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+		.footer_images {
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	
+}
+footer a {
+	padding-left: 1px;
+}
+footer {
+	max-height: 160px;
+	min-height: auto;
+}
+
+	
 	
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+		.footer_images {
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	
+}
+footer a {
+	padding-left: 1px;
+}
+footer {
+	max-height: 160px;
+	min-height: auto;
+}
 	
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.footer_images {
+	text-align: right;
+	padding-top: 2px;
+	padding-right: 25px;
+	
+}
+footer a {
+	padding-left: 1px;
+}
+footer {
+	max-height: 160px;
+	min-height: auto;
+}
 
 }
 /* Large Devices, Wide Screens */
