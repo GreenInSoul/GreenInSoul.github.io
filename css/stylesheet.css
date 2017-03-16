@@ -132,6 +132,11 @@ header a {
 		color: black;
 		text-transform: uppercase;
 		font-family: BebasBold;
+		font-size: 18px;
+}
+
+.navbar-brand {
+	line-height: 27px;
 }
 
 .nav, .nav-tabs, .nav-justified>li {
@@ -164,22 +169,25 @@ footer {
 
 }
 
-.footer_text {
-	color: white;
-	text-transform: uppercase;
-	font-family: BebasBold;
-	padding-top: 30px;
-	padding-left: 30px;
-	float: left;
-}
 
 .footer_images {
 	text-align: right;
 	padding-top: 30px;
 	padding-right: 50px;
 	margin-bottom: 25px;
-
+	width: 50%;
+	float: right;
 	
+}
+
+.footer_text {
+	color: white;
+	text-transform: uppercase;
+	font-family: BebasBold;
+	float: left;
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 25px;
 }
 
 footer a {
@@ -249,11 +257,13 @@ footer a {
 		text-align: center;
 		padding-top: 5px;
 		padding-right: 5px;
+		width: 100%;
+		margin-bottom: 0px;
 
 }
 
 	footer img {
-		width: 6%;
+		width: 5%;
 }
 
 	
@@ -284,7 +294,7 @@ footer a {
 }
 
 	footer img {
-		width: 10%;
+		width: 8%;
 }
 
 
