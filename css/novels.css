@@ -1,0 +1,398 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clr{
+	clear:both;
+}
+*:focus, *:active {
+	outline: none !important;
+}
+input:focus::-ms-input-placeholder { /* IE */
+	color: transparent;
+}
+input:focus::-ms-input-placeholder { /* Edge */
+	color: transparent;
+}
+input:focus::-webkit-input-placeholder { /* Cr,Op,Sf */
+	color: transparent;
+}
+input:focus:-moz-placeholder { /* Fr 4-19 */
+	color: transparent;
+}
+input:focus::-moz-placeholder { /* Fr 4-19 */
+	color: transparent;
+}
+/*************************************index style start*************************************/
+h1{
+	font-family: '';
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+h2{
+	font-family: '';
+	font-size: 28px;
+	line-height: 28px;
+	color: #000000;
+}
+p{
+	font-family: '';
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+figcaption{
+	font-family: '';
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+}
+.btn{
+
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background-color:#f9371a;
+	color: #ffffff;
+}
+.btn:focus{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    
+}
+/*********************************************site**************************************/
+
+/**********************************************header************************************/
+nav {
+	opacity: 0.9;
+}
+
+header {
+	background-image: url('../images/heder.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 309px;
+}
+
+header a {
+		color: black;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		font-size: 18px;
+}
+
+.navbar-brand {
+	line-height: 27px;
+}
+
+.nav, .nav-tabs, .nav-justified>li {
+	background-color: #f1e1db;
+	border-style: none;
+	border: none;
+	padding-top: 2px;
+
+}
+
+/***************************************main_body*****************************************/
+section>h1 {
+	text-align: center;
+	padding-top: 
+}
+
+.books_images {
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 50px;
+	margin-bottom: 25px;
+
+	float: left;
+}
+
+h3 {
+	text-align: center;
+}
+
+/***************************************1st_section***************************************/
+.in_the_process_of_writing h1 {
+	background-color: #ffe1b3;
+}
+
+.books_images_1st {
+	width: 50%;
+	background-color: #ffe1b3;
+}
+
+.books_images_1st_1st_text {
+	text-align: right;
+}
+
+.books_images_1st_2nd_text {
+	text-align: left;
+}
+
+.books_images_1st_1st_text h3 {
+	text-align: right;
+	padding-right: 60px;
+}
+
+.books_images_1st_2nd_text h3 {
+	text-align: left;
+	padding-left: 30px;
+}
+
+.button_header_1st {
+	padding-right: 50px;
+}
+
+.button_header_2nd {
+	padding-left: 50px;
+}
+/***************************************2nd_section***************************************/
+.fatal_love {
+
+}
+
+.books_images_2nd {
+	width: 25%;
+}
+
+/***************************************3rd_section***************************************/
+.others_works {
+	min-height: 1000px;
+}
+
+.books_images_3rd {
+	width: 33.3%;
+}
+
+
+/***************************************footer*********************************************/
+
+footer {
+	background-color: #433d3f;
+	max-height: 130px;
+	min-height: 100px;
+	color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.9;
+
+}
+
+
+.footer_images {
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	float: right;
+	
+}
+
+.footer_text {
+	color: white;
+	text-transform: uppercase;
+	font-family: BebasBold;
+	float: left;
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 25px;
+}
+
+footer a {
+	padding-left: 5px;
+}
+
+
+
+/**********************************************media*********************************************/
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+		width: 100%;
+		margin-bottom: 0px;
+
+}
+
+	footer img {
+		width: 5%;
+}
+
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+
+}
+
+	footer img {
+		width: 8%;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	footer {
+		max-height: 100px;
+	}
+
+	.footer_text {
+		color: white;
+		text-transform: uppercase;
+		font-family: BebasBold;
+		padding-top: 5px;
+		padding-left: 5px;
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+	.footer_images {
+		text-align: center;
+		padding-top: 5px;
+		padding-right: 5px;
+
+}
+
+	footer img {
+		width: 10%;
+}
+/* Large Devices, Wide Screens */
+@media (min-width : 992px) and (max-width : 1200px) {
+	
+}
