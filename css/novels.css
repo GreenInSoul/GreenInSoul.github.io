@@ -117,7 +117,7 @@ figcaption{
 
 /**********************************************header************************************/
 nav {
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 header {
@@ -140,7 +140,7 @@ header a {
 }
 
 .nav, .nav-tabs, .nav-justified>li {
-	background-color: #f1e1db;
+	background-color: #ffe1b3;
 	border-style: none;
 	border: none;
 	padding-top: 2px;
