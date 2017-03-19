@@ -116,6 +116,7 @@ figcaption{
 /*********************************************site**************************************/
 
 /**********************************************header************************************/
+
 nav {
 	opacity: 0.8;
 }
@@ -156,8 +157,8 @@ section>h1 {
 .books_images {
 	text-align: center;
 	padding-top: 30px;
-	padding-right: 50px;
-	margin-bottom: 25px;
+
+
 
 	float: left;
 }
@@ -178,10 +179,13 @@ h3 {
 
 .books_images_1st_1st_text {
 	text-align: right;
+	padding-right: 4.5%;
 }
 
 .books_images_1st_2nd_text {
 	text-align: left;
+	padding-left: 4.5%;
+
 }
 
 .books_images_1st_1st_text h3 {
@@ -192,15 +196,23 @@ h3 {
 .books_images_1st_2nd_text h3 {
 	text-align: left;
 	padding-left: 30px;
+
 }
 
-.button_header_1st {
-	padding-right: 50px;
+.books_images_1st_1st_text form {
+	text-align: right;
+	padding-right: 45px;
 }
 
-.button_header_2nd {
-	padding-left: 50px;
+.books_images_1st_2nd_text form {
+	text-align: left;
+	padding-left: 45px;
+
 }
+
+
+
+
 /***************************************2nd_section***************************************/
 .fatal_love {
 
@@ -296,7 +308,15 @@ footer a {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.books_images_2nd {
+	width: 50%;
+}
+
+.others_works {
+	min-height: 1300px;
+}
 	
+
 }
 
 /* Small Devices, Tablets */
@@ -330,8 +350,21 @@ footer a {
 		width: 5%;
 }
 
+.books_images_2nd {
+	width: 50%;
+}
+
+
 	
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 710px) {
+	.books_images_3rd {
+	width: 50%;
+}
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
@@ -361,6 +394,60 @@ footer a {
 		width: 8%;
 }
 
+.books_images_2nd {
+	width: 100%;
+}
+
+.books_images_1st {
+	width: 100%;
+}
+
+.books_images_1st_1st_text {
+	text-align: center;
+	padding: 0;
+}
+
+.books_images_1st_2nd_text {
+	text-align: center;
+	padding: 0;
+}
+
+.books_images_1st_1st_text h3 {
+	text-align: center;
+	padding-right: 0px;
+}
+
+.books_images_1st_2nd_text h3 {
+	text-align: center;
+	padding-left: 0px;
+}
+
+.books_images_1st_1st_text form {
+	text-align: center;
+	padding-right: 0px;
+}
+
+.books_images_1st_2nd_text form {
+	text-align: center;
+	padding-left: 0px;
+
+}
+
+.button_header_1st {
+	padding-right: 0px;
+}
+
+.button_header_2nd {
+	padding-left: 0px;
+}
+
+.books_images_3rd {
+	width: 100%;
+}
+
+.others_works {
+	min-height: auto;
+}
 
 }
 
