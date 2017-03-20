@@ -116,7 +116,9 @@ figcaption{
 /*********************************************site**************************************/
 
 /**********************************************header************************************/
-
+body {
+	min-height: 2050px;
+}
 nav {
 	opacity: 0.8;
 }
@@ -231,6 +233,11 @@ section h3 {
 
 }
 
+.button_header_1st,
+.button_header_2nd {
+	padding-bottom: 30px;
+}
+
 
 
 
@@ -333,8 +340,8 @@ footer a {
 	width: 50%;
 }
 
-.others_works {
-	min-height: 1300px;
+	body {
+	min-height: 2500px;
 }
 	
 
@@ -375,6 +382,9 @@ footer a {
 	width: 50%;
 }
 
+	body {
+	min-height: 2500px;
+}
 
 	
 }
@@ -384,6 +394,11 @@ footer a {
 	.books_images_3rd {
 	width: 50%;
 }
+
+	body {
+	min-height: 2975px;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -473,6 +488,10 @@ footer a {
 	min-height: auto;
 }
 
+	body {
+	min-height: 4750px;
+}
+
 }
 
 /* Custom, iPhone Retina */
@@ -502,6 +521,12 @@ footer a {
 
 	footer img {
 		width: 10%;
+}
+
+	body {
+	min-height: 4800px;
+}
+
 }
 /* Large Devices, Wide Screens */
 @media (min-width : 992px) and (max-width : 1200px) {
