@@ -148,10 +148,15 @@ header a {
 
 }
 
+
+
 /***************************************main_body*****************************************/
-section>h1 {
+section h1 {
 	text-align: center;
-	padding-top: 
+	font-family: BebasBold;
+	font-size: 300%;
+
+
 }
 
 .books_images {
@@ -165,11 +170,27 @@ section>h1 {
 
 h3 {
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+section h3 {
+	font-family: BebasBold;
+	font-size: 200%;
+}
+
+.btn-warning {
+	font-family: BebasBold;
+	font-size: 150%;
+	color: black;
 }
 
 /***************************************1st_section***************************************/
 .in_the_process_of_writing h1 {
 	background-color: #ffe1b3;
+
 }
 
 .books_images_1st {
@@ -179,18 +200,18 @@ h3 {
 
 .books_images_1st_1st_text {
 	text-align: right;
-	padding-right: 4.5%;
+	padding-right: 5.5%;
 }
 
 .books_images_1st_2nd_text {
 	text-align: left;
-	padding-left: 4.5%;
+	padding-left: 5.5%;
 
 }
 
 .books_images_1st_1st_text h3 {
 	text-align: right;
-	padding-right: 60px;
+	padding-right: 45px;
 }
 
 .books_images_1st_2nd_text h3 {
@@ -214,8 +235,8 @@ h3 {
 
 
 /***************************************2nd_section***************************************/
-.fatal_love {
-
+.fatal_love h1 {
+	padding-top: 40px;
 }
 
 .books_images_2nd {
@@ -224,7 +245,7 @@ h3 {
 
 /***************************************3rd_section***************************************/
 .others_works {
-	min-height: 1000px;
+	min-height: ;
 }
 
 .books_images_3rd {
@@ -367,6 +388,9 @@ footer a {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.in_the_process_of_writing h1 {
+		padding-bottom: 40px;
+	}
 
 	footer {
 		max-height: 100px;
