@@ -99,6 +99,7 @@ figcaption{
 	border-style: solid;
 	border-color: white;
 	text-transform: uppercase;
+	width: 150px;
 }
 .btn:hover{
 	background-color:#f9371a;
@@ -117,7 +118,9 @@ figcaption{
 
 /**********************************************header************************************/
 body {
-	min-height: 2050px;
+	
+	background-color: #ffe1b3;
+	min-height: 1000px;
 }
 nav {
 	opacity: 0.8;
@@ -157,7 +160,7 @@ section h1 {
 	text-align: center;
 	font-family: BebasBold;
 	font-size: 300%;
-
+	padding-bottom: 20px;
 
 }
 
@@ -176,7 +179,9 @@ h3 {
 	padding-bottom: 10px;
 }
 
-
+section p {
+	font-family: Roboto regular;
+}
 
 section h3 {
 	font-family: BebasBold;
@@ -188,78 +193,66 @@ section h3 {
 	font-size: 150%;
 	color: black;
 }
-
-/***************************************1st_section***************************************/
-.in_the_process_of_writing h1 {
-	background-color: #ffe1b3;
-
+.btn-danger {
+	font-family: BebasBold;
+	font-size: 150%;
+	color: black;
+}
+.btn-default {
+	font-family: BebasBold;
+	font-size: 150%;
+	color: black;
+	background: #ffe1b3;
+	border: none;
+	
 }
 
-.books_images_1st {
-	width: 50%;
-	background-color: #ffe1b3;
+/***************************************section_image***************************************/
+.section_1st {
+	float: left;
+
+}
+.section {
+	float: left;
+	padding-top: 60px;
 }
 
-.books_images_1st_1st_text {
+.section_image {
 	text-align: right;
-	padding-right: 5.5%;
+	width: 40%;
 }
 
-.books_images_1st_2nd_text {
+/***************************************section_text***************************************/
+.section_text {
 	text-align: left;
-	padding-left: 5.5%;
-
+	width: 45%;
+	padding-left: 35px;
 }
 
-.books_images_1st_1st_text h3 {
-	text-align: right;
-	padding-right: 45px;
-}
-
-.books_images_1st_2nd_text h3 {
+.section_text h1 {
 	text-align: left;
-	padding-left: 30px;
-
 }
-
-.books_images_1st_1st_text form {
-	text-align: right;
-	padding-right: 45px;
-}
-
-.books_images_1st_2nd_text form {
-	text-align: left;
-	padding-left: 45px;
-
-}
-
-.button_header_1st,
-.button_header_2nd {
-	padding-bottom: 30px;
+.button_yellow,
+.button_red {
+	padding-top: 19%;
+	padding-right: 20px;
 }
 
 
+/***************************************section_button***************************************/
+.section_button {
+ 	width: 100%;
+ 	padding-left: 55%;
 
 
-/***************************************2nd_section***************************************/
-.fatal_love h1 {
-	padding-top: 40px;
 }
-
-.books_images_2nd {
-	width: 25%;
+form {
+	float: left;
 }
-
-/***************************************3rd_section***************************************/
-.others_works {
-	min-height: ;
+.button_transparent {
+	padding-right: 20px;
+	margin-top: 40px;
 }
-
-.books_images_3rd {
-	width: 33.3%;
-}
-
-
 /***************************************footer*********************************************/
 
 footer {
@@ -336,19 +329,144 @@ footer a {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.books_images_2nd {
-	width: 50%;
-}
+	
+
 
 	body {
-	min-height: 2500px;
+	min-height: 1200px;
 }
 	
 
 }
 
+@media only screen and (max-width : 1200px) {
+	body {
+	min-height: 1500px;
+}
+form {
+	float: none;
+}
+
+}
+
+@media only screen and (max-width : 1240px) {
+
+	body {
+	min-height: 1600px;
+}
+
+	form {
+	float: none;
+}
+
+	.section {
+		float: none;
+	
+}
+
+ .section_text h1 {
+	text-align: center;
+}
+	.section_image {
+	text-align: center;
+	width: 100%;
+}
+	.section_text {
+	text-align: center;
+	width: 100%;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.button_yellow,
+.button_red {
+	padding-top: 2.5%;
+	padding-right: 0px;
+	padding-bottom: 2.5%;
+}
+
+
+.button_transparent {
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding-right: 0;
+	margin-top: 0;
+
+
+
+}
+
+.section_button form {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.section_button {
+		padding: 50px;
+		text-align: center;
+
+}
+
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+	body {
+	min-height: 1650px;
+}
+
+	form {
+	float: none;
+}
+
+	.section {
+		float: none;
+	
+}
+
+ .section_text h1 {
+	text-align: center;
+}
+	.section_image {
+	text-align: center;
+	width: 100%;
+}
+	.section_text {
+	text-align: center;
+	width: 100%;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.button_yellow,
+.button_red {
+	padding-top: 2.5%;
+	padding-right: 0px;
+	padding-bottom: 2.5%;
+}
+
+
+.button_transparent {
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding-right: 0;
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+
+.section_button form {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.section_button {
+		padding: 50px;
+		text-align: center;
+
+}
 
 	footer {
 		max-height: 100px;
@@ -378,35 +496,23 @@ footer a {
 		width: 5%;
 }
 
-.books_images_2nd {
-	width: 50%;
-}
-
-	body {
-	min-height: 2500px;
-}
-
 	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 710px) {
-	.books_images_3rd {
-	width: 50%;
+	
 }
 
 	body {
-	min-height: 2975px;
+	min-height: 1650px;
 }
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.in_the_process_of_writing h1 {
-		padding-bottom: 40px;
-	}
-
+	
 	footer {
 		max-height: 100px;
 	}
@@ -429,67 +535,12 @@ footer a {
 
 }
 
+	body {
+		min-height: 5000px;
+}
+
 	footer img {
 		width: 8%;
-}
-
-.books_images_2nd {
-	width: 100%;
-}
-
-.books_images_1st {
-	width: 100%;
-}
-
-.books_images_1st_1st_text {
-	text-align: center;
-	padding: 0;
-}
-
-.books_images_1st_2nd_text {
-	text-align: center;
-	padding: 0;
-}
-
-.books_images_1st_1st_text h3 {
-	text-align: center;
-	padding-right: 0px;
-}
-
-.books_images_1st_2nd_text h3 {
-	text-align: center;
-	padding-left: 0px;
-}
-
-.books_images_1st_1st_text form {
-	text-align: center;
-	padding-right: 0px;
-}
-
-.books_images_1st_2nd_text form {
-	text-align: center;
-	padding-left: 0px;
-
-}
-
-.button_header_1st {
-	padding-right: 0px;
-}
-
-.button_header_2nd {
-	padding-left: 0px;
-}
-
-.books_images_3rd {
-	width: 100%;
-}
-
-.others_works {
-	min-height: auto;
-}
-
-	body {
-	min-height: 4800px;
 }
 
 }
@@ -524,7 +575,7 @@ footer a {
 }
 
 	body {
-	min-height: 4850px;
+	min-height: 1750px;
 }
 
 }
