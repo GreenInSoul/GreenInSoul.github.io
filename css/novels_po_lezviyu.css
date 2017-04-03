@@ -339,7 +339,7 @@ footer a {
 @media only screen and (max-width : 1200px) {
 	
 	body {
-		min-height: 500px;
+		min-height: 1700px;
 }
 	
 	form {
@@ -351,7 +351,7 @@ footer a {
 @media only screen and (max-width : 1240px) {
 
 	body {
-		min-height: 500px;
+		min-height: 1700px;
 }
 
 	form {
